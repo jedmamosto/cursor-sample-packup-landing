@@ -8,12 +8,12 @@ declare module 'tailwindcss' {
     darkMode?: 'media' | 'class';
     theme?: {
       extend?: {
-        colors?: Record<string, any>;
-        [key: string]: any;
+        colors?: Record<string, unknown>;
+        [key: string]: unknown;
       };
-      [key: string]: any;
+      [key: string]: unknown;
     };
-    plugins?: any[];
-    [key: string]: any;
+    plugins?: unknown[];
+    [key: string]: unknown;
   }
 } 
